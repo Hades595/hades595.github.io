@@ -6,14 +6,20 @@
     <description>Recent content on thesimpleDFIRblog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 13 Jul 2023 16:14:49 +1200</lastBuildDate><atom:link href="https://hades595.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 16 Jul 2023 14:37:21 +1200</lastBuildDate><atom:link href="https://hades595.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>this is a test post :) </title>
-      <link>https://hades595.github.io/posts/test/</link>
-      <pubDate>Thu, 13 Jul 2023 16:14:49 +1200</pubDate>
+      <title>Visualising Collatz Conjecture</title>
+      <link>https://hades595.github.io/posts/visualisingcollatzconjecture/</link>
+      <pubDate>Sun, 16 Jul 2023 14:37:21 +1200</pubDate>
       
-      <guid>https://hades595.github.io/posts/test/</guid>
-      <description>content</description>
+      <guid>https://hades595.github.io/posts/visualisingcollatzconjecture/</guid>
+      <description>This is a simple visualisation of the Collatz Conjecture Problem.
+The conjecture is take a positive integer:
+If it is an odd number: We multiple by 3 and add 1
+If it is an even number: We divide by 2
+We keep applying these rules, until we reach a loop of 4 -&amp;gt; 2 -&amp;gt; 1.
+Because every positive number will end up in the 4,2,1 loop.
+I based it off Veritasium&amp;rsquo;s explanation</description>
     </item>
     
   </channel>
