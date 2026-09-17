@@ -1,0 +1,43 @@
+baseURL = "https://hades595.github.io/"
+title = "Yet Another Digital Forensics Blog"
+theme = "hugo-paper"
+author = "Chirag Mehta"
+copyright = "© 2023-2026, Chirag Mehta"
+locale = "en-US"
+enableInlineShortcodes = true
+
+[pagination]
+  pagerSize = 5
+
+[params]
+  color = 'gray'
+  github = 'hades595'
+  rss = true
+  avatar = ''
+  name = 'Chirag Mehta'
+  bio = 'Notes and write-ups on digital forensics, incident response, CTFs amongst other things.'
+
+[markup.goldmark.renderer]
+  unsafe = true
+
+[[menu.main]]
+  identifier = "posts"
+  name = "Posts"
+  url = "/posts/"
+  weight = 10
+
+[[menu.main]]
+  identifier = "categories"
+  name = "Categories"
+  url = "/categories/"
+  weight = 20
+
+[[menu.main]]
+  identifier = "tags"
+  name = "Tags"
+  url = "/tags/"
+  weight = 30
+
+[taxonomies]
+  category = "categories"
+  tag = "tags"

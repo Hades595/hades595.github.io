@@ -1,0 +1,15 @@
+{{- define "main" -}}
+
+<h1 class="mb-14">{{- .Title -}}</h1>
+
+<section class="flex flex-wrap">
+  {{- range .Pages.ByTitle -}}
+  <a
+    class="mb-1.5 rounded-lg bg-black/[3%] px-5 py-1 no-underline hover:bg-black/[6%] ltr:mr-1.5 rtl:ml-1.5 dark:bg-white/[8%] dark:hover:bg-white/[12%]"
+    href="{{- .Permalink -}}"
+    >{{- .Title }} ({{ len .Pages -}})</a
+  >
+  {{- end -}}
+</section>
+
+{{- end -}}
